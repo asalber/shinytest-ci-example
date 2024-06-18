@@ -14,7 +14,7 @@ ui <- fluidPage(
 
       # Input: Select the random distribution type ----
       radioButtons("dist", "Distribution type:",
-                   c("Normal" = "norm",
+                   c("Normales" = "norm",
                      "Uniform" = "unif",
                      "Log-normal" = "lnorm",
                      "Exponential" = "exp")),
